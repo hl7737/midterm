@@ -13,6 +13,6 @@ int main()
         max=a;
     }
     while(1);
-    prinf("max=%d\n",max);
+    printf("max=%d\n",max);
     return 0;
 }
