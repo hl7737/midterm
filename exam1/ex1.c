@@ -2,7 +2,7 @@
 #include<ctype.h>
 int main()
 {
-    int k,num=1,alpha=0;
+    int k,num=0,alpha=0;
     char str[50],c;
     gets (str);
     puts("请输入一个长度不超过50的字符串:\n");
