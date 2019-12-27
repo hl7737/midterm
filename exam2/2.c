@@ -7,13 +7,13 @@ int main(int argc,char *argv[]){
         a[j]=atof(argv[k]);
     }
     int i;
-    double min=a[1];
+    double max=a[1];
     for(i=0;i<argc-1;i++)
 {
-    if(a[i]<min){
-        min=a[i];
+    if(a[i]>max){
+        max=a[i];
     }
 }
-printf("The max is：%d\n",a[9]);
-printf("%1.1f\n",min);
+printf("The max number is：");
+printf("%1.1f\n",max);
 }
